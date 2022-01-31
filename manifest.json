@@ -1,0 +1,28 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"Test",
+    "content_scripts":[
+     {
+      "matches":["<all_urls>"],
+      "js":["main.js"]
+     }
+    ],
+    "web_accessible_resources": [
+          "pp.jpg"
+    ],
+    "icons": {
+        "48": "doge.png"
+    },
+    "browser_action":{
+        "default_icon":{
+          "19":"doge.png"
+        }
+    },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":[
+        "tabs"
+    ]
+  }
