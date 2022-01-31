@@ -12,11 +12,11 @@
           "pp.jpg"
     ],
     "icons": {
-        "48": "doge.png"
+        "48": "productivity.png"
     },
     "browser_action":{
         "default_icon":{
-          "19":"doge.png"
+          "19":"productivity.png"
         }
     },
     "background":{
